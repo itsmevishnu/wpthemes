@@ -1,0 +1,11 @@
+.breadcrumb-item::after {
+    display: inline-block;
+    padding-right: .5rem;
+    padding-left: .5rem;
+    color: #636c72;
+    content: ">";
+}
+
+.breadcrumb-item.active::after {
+    content: "";
+}
